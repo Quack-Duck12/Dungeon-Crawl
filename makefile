@@ -37,8 +37,8 @@ endif
 
 ifeq ($(MODE),release)
 	BUILD_TYPE := RELEASE
-	CFLAGS     := -Wall -O2 -DNDEBUG
-	CXXFLAGS   := -Wall -O2 -DNDEBUG
+	CFLAGS     := -Wall -O2
+	CXXFLAGS   := -Wall -O2
 endif
 
 # ========================
