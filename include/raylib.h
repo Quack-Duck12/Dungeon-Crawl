@@ -200,6 +200,48 @@
 #define MAGENTA    CLITERAL(Color){ 255, 0, 255, 255 }     // Magenta
 #define RAYWHITE   CLITERAL(Color){ 245, 245, 245, 255 }   // My own White (raylib logo)
 
+// Extended Neutral Colors
+#define OFFWHITE    CLITERAL(Color){ 250, 250, 250, 255 }
+#define WARMGRAY    CLITERAL(Color){ 170, 170, 170, 255 }
+#define COOLGRAY    CLITERAL(Color){ 150, 160, 170, 255 }
+#define CHARCOAL    CLITERAL(Color){ 45, 45, 45, 255 }
+#define JETBLACK    CLITERAL(Color){ 20, 20, 20, 255 }
+
+// Soft Pastels (UI-friendly)
+#define PASTEL_RED    CLITERAL(Color){ 255, 179, 186, 255 }
+#define PASTEL_ORANGE CLITERAL(Color){ 255, 223, 186, 255 }
+#define PASTEL_YELLOW CLITERAL(Color){ 255, 255, 186, 255 }
+#define PASTEL_GREEN  CLITERAL(Color){ 186, 255, 201, 255 }
+#define PASTEL_BLUE   CLITERAL(Color){ 186, 225, 255, 255 }
+#define PASTEL_PURPLE CLITERAL(Color){ 218, 198, 255, 255 }
+
+// Vibrant / Accent Colors
+#define CYAN          CLITERAL(Color){ 0, 255, 255, 255 }
+#define TEAL          CLITERAL(Color){ 0, 180, 170, 255 }
+#define AQUA          CLITERAL(Color){ 64, 224, 208, 255 }
+#define HOTPINK       CLITERAL(Color){ 255, 64, 180, 255 }
+#define NEON_GREEN    CLITERAL(Color){ 57, 255, 20, 255 }
+#define NEON_BLUE     CLITERAL(Color){ 50, 120, 255, 255 }
+
+// Earth / Natural Tones
+#define SAND          CLITERAL(Color){ 237, 201, 175, 255 }
+#define OLIVE         CLITERAL(Color){ 128, 128, 0, 255 }
+#define MOSS          CLITERAL(Color){ 100, 125, 50, 255 }
+#define CLAY          CLITERAL(Color){ 210, 140, 100, 255 }
+#define RUST          CLITERAL(Color){ 183, 65, 14, 255 }
+
+// Dark UI / Overlay Colors
+#define DARK_RED      CLITERAL(Color){ 120, 20, 30, 255 }
+#define DARK_ORANGE   CLITERAL(Color){ 160, 80, 0, 255 }
+#define DARK_TEAL     CLITERAL(Color){ 0, 90, 90, 255 }
+#define DARK_CYAN     CLITERAL(Color){ 0, 110, 110, 255 }
+#define DARK_PINK     CLITERAL(Color){ 170, 50, 110, 255 }
+
+// Transparency Helpers
+#define BLACK_50      CLITERAL(Color){ 0, 0, 0, 128 }
+#define WHITE_50      CLITERAL(Color){ 255, 255, 255, 128 }
+#define SHADOW        CLITERAL(Color){ 0, 0, 0, 60 }
+
 //----------------------------------------------------------------------------------
 // Structures Definition
 //----------------------------------------------------------------------------------
